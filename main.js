@@ -5,6 +5,7 @@ import data from "./data.json" assert { type: "json" };
 const router = new Router();
 router
   .get("/", (context) => {
+    console.log(context)
     context.response.body = "Welcome to dinosaur API!";
   })
   .get("/api", (context) => {
@@ -21,7 +22,12 @@ router
         context.response.body = "No dinosaurs found.";
       }
     }
-  });
+  })
+  .get("/search", (context) => {
+    console.log(context.request.url.searchParams.get('q'));
+    console.log('nice one ma gee')
+    context.response.body = "testing query params";
+  })
 
 const app = new Application();
 app.use(oakCors()); // Enable CORS for All Routes
