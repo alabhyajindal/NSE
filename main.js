@@ -3,7 +3,7 @@ import { oakCors } from "https://deno.land/x/cors@v1.2.2/mod.ts";
 
 const INDEX_PAGE = `<!DOCTYPE html>
     <html>
-      <head><title>NSE - Not a Search Engine</title><head>
+      <head><title>NSE: Not a Search Engine</title><head>
       <style>
       code {
         background-color: lightblue
