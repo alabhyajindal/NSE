@@ -1,6 +1,6 @@
 ## NSE: Not a Search Engine
 
-Search other platforms using limited [Bangs](https://duckduckgo.com/bangs) without the exclamation mark.
+Search other platforms and nothing else. Inspired by [Kagi](https://help.kagi.com/kagi/features/bangs.html)'s implementation of DuckDuckGo's [bangs](https://duckduckgo.com/bangs) feature.
 
 - `tw` Twitter
 - `hn` Hacker News
