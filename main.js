@@ -12,14 +12,14 @@ const INDEX_PAGE = `<!DOCTYPE html>
       <body>
         <h1>NSE - Not a Search Engine</h1>
         <p>Type the following bangs, followed by your query to search the respective websites:</p>
-        <p><code>tw</code> for Twitter</p>
-        <p><code>hn</code> for Hacker News</p>
-        <p><code>yt</code> for YouTube</p>
-        <p><code>mw</code> for Merriam Webster</p>
-        <p><code>gr</code> for Goodreads</p>
-        <p><code>u</code> for Urban Dictionary</p>
-        <p><code>r</code> for Reddit</p>
-        <p><code>w</code> for Wikipedia</p>
+        <p><code>tw</code> Twitter</p>
+        <p><code>hn</code> Hacker News</p>
+        <p><code>yt</code> YouTube</p>
+        <p><code>mw</code> Merriam Webster</p>
+        <p><code>gr</code> Goodreads</p>
+        <p><code>u</code> Urban Dictionary</p>
+        <p><code>r</code> Reddit</p>
+        <p><code>w</code> Wikipedia</p>
 
         <br />
 
