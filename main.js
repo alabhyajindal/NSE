@@ -24,6 +24,7 @@ const INDEX_PAGE = `<!DOCTYPE html>
         <br />
 
         <p>eg. use <code>tw Ruby on Rails</code> to search Twitter for Ruby on Rails.</p>
+        <a href='https://github.com/alabhyajindal/nse'>GitHub</a>
 
       </body>
     </html>
